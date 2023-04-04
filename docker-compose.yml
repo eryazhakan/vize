@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
-      MYSQL_PASSWORD: example
+      MYSQL_PASSWORD: 030118032
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - ./db:/var/lib/mysql
